@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+  Name: Kanika Sun
+  Date: 09.21.2024
+  CSC 372-01
+
+  This is the meal.html page for the third assignment in 372 which is a page
+  that allows for people to create a meal plan based on the recommendations
+  I've given.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Recs</title>
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <script src="blog.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="blog.html" class="logo">Campus Recs</a>
+        <nav class="nav">
+            <a href="blog.html">Blog</a>
+            <a href="mealplan.html">Meal Plan</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Create Your Meal Plan!</h1>
+            <h4>Based on the recommendations I've given, you can create
+                your own meal plan! The total cost is included so you 
+                know what you're paying for!
+            </h4>
+        </section>
+
+
+        <div id="mealcontain">
+            <div id="dishes">
+                <h2>My Recommendations: </h2>
+                <ul>
+                    <li name="Tuna Rice Bowl" price="14">Spicy Tuna Rice Bowl - $14 <button class="btn">+</button></li>
+                    <li name="Spicy Ramen" price="17">Spicy Ramen - $17 <button class="btn">+</button></li>
+                    <li name="Teriyaki Bowl" price="13">Teriyaki Bowl - $13 <button class="btn">+</button></li>
+                    <li name="Matcha Tea Latte" price="7">Matcha Tea Latte - $7 <button class="btn">+</button></li>
+                    <li name="Taro Milk Tea" price="6.50">Taro Milk Tea - $6.50 <button class="btn">+</button></li>
+                    <li name="Brownsugar Milk Tea" price="6.50">Brown Sugar Milk Tea - $6.50 <button
+                            class="btn">+</button></li>
+                    <li name="Chocolate Cookie" price="3">Chocolate Cookie - $3 <button class="btn">+</button></li>
+                    <li name="Confetti Cookie" price="3">Confetti Cookie - $3 <button class="btn">+</button></li>
+                    <li name="Smores Cookie" price="3">S'mores Cookie - $3 <button class="btn">+</button></li>
+                </ul>
+            </div>
+
+            <div id="plan">
+                <h2>Your Selections:</h2>
+                <ul id="planned"></ul>
+                <p>Cost: $<span id="total">0</span></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="box">
+            <a href="blog.html">Blog</a>
+            <a href="meal.html">Meal Plan</a>
+        </div>
+
+        <p>
+            Copyright &copy 2024 | <span>Campus Recs</span> | All Rights Reserved
+        </p>
+
+    </footer>
+
+</body>
